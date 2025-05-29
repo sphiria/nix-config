@@ -1,0 +1,3 @@
+{
+  adminSshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMmyRTv7AOSBOzYdq7KWGj5Hyye+699J2k8ZF8Ol5+al";
+}
