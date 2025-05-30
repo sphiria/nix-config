@@ -83,7 +83,10 @@
   # hetzner cloud specific networking
   networking = {
     useDHCP = false;
-    interfaces.eth0.useDHCP = true;
+    interfaces = {
+      eth0.useDHCP = true;
+      enp7s0.useDHCP = true;
+    };
     firewall.enable = false;
   };
 
